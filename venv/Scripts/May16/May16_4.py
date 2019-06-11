@@ -1,0 +1,11 @@
+l = [1, 2, 3, 4, 5, 6, 7, 8]
+#o1 = filter(lambda x: x % 2 == 0, l)
+o1 = list(filter(lambda x: x % 2 == 0, l))
+# print(type(o1))
+# print(next(o1))
+# print(next(o1))
+# print(next(o1))
+# print(next(o1))
+#l1 = list(map(lambda x: x * 2, o1))
+#print(l1)
+print(o1)

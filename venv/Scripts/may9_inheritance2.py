@@ -1,0 +1,17 @@
+class mobile1:
+    def dp(self):
+        print("inside display 3")
+
+
+class mobile2():
+    def dp(self):
+        print("inside display 4")
+
+
+class mobile3(mobile2,mobile1):
+    def dp(self):
+        print("bc")
+
+
+m3 = mobile3()
+m3.dp()
